@@ -1,5 +1,12 @@
+import RepositoriesList from './components/RepositoriesList';
+
 const App = () => {
-  return <div>HEllo</div>;
+  return (
+    <div>
+      <h1>Search for a package</h1>
+      <RepositoriesList />
+    </div>
+  );
 };
 
 export default App;
